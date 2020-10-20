@@ -8,9 +8,9 @@ It is up to you to decide when to use someone else's code from a library/open so
 
 **Overview**:
 
-The included data.json file is a JSON formatted weighted graph, whose nodes represent the characters from Les Miserables. You can find many visualisations of this graph online, such as here https://mbostock.github.io/protovis/ex/force.html
+The included data.json file is a JSON formatted **weighted graph**, whose nodes represent the characters from Les Miserables. You can find many visualisations of this graph online, such as here https://mbostock.github.io/protovis/ex/force.html
 
-Each link in the JSON has a direction, and an associated value, indicating the strength of the connection between the two ends of the link.
+Each link in the JSON has a direction, and an associated **weight**, indicating the strength of the connection between the two ends of the link.
 
 For this problem, you should interpret the graph to be **undirected**, meaning that each link in the table really represents a bi-directional link between the two ends.
 
@@ -18,7 +18,9 @@ We are interested in various methods of determining the "most important" nodes i
 
 **Question 1**:
 
-Write a program to compute the weighted degree of each node of the graph, and order the nodes by their weighted degree.  The program should print its output to stdout in the following format
+For a given node in the graph, its **weighted degree** is the sum of the weightsof all links connected to the node.
+
+Write a program to compute the **weighted degree** of each node of the graph, and order the nodes by their weighted degree.  The program should print its output to stdout in the following format
 
 highest scoring node name:          score
 second highest scoring node name:   score
