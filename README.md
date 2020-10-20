@@ -10,7 +10,7 @@ It is up to you to decide when to use someone else's code from a library/open so
 
 The included data.json file is a JSON formatted **weighted graph**, whose nodes represent the characters from Les Miserables. You can find many visualisations of this graph online, such as here https://mbostock.github.io/protovis/ex/force.html
 
-Each link in the JSON has a direction, and an associated **weight**, indicating the strength of the connection between the two ends of the link.
+Each link in the JSON has an associated **weight**, indicating the strength of the connection between the two ends of the link.
 
 For this problem, you should interpret the graph to be **undirected**, meaning that each link in the table really represents a bi-directional link between the two ends.
 
