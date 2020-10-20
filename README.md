@@ -22,11 +22,11 @@ For a given node in the graph, its **weighted degree** is the sum of the weights
 
 Write a program to compute the **weighted degree** of each node of the graph, and order the nodes by their weighted degree.  The program should print its output to stdout in the following format
 
-highest scoring node name:          score
-second highest scoring node name:   score
-.
-.
-.
+highest scoring node name:          score  
+second highest scoring node name:   score  
+.  
+.  
+.  
 
 **Question 2**:
 
