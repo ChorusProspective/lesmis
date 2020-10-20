@@ -1,5 +1,7 @@
 **Rules**:
 
+For the aspects of this task that require you to write words, submit these as a txt file, clearly indicating which question they are answering.
+
 For the programming aspects of this task, you may use any language of your choice.
   
 It is up to you to decide when to use someone else's code from a library/open source, and when to write something yourself. In each case, you should determine this based on the context of the overall task.
